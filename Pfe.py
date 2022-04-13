@@ -1,4 +1,3 @@
-from PIL import Image
 import numpy as np
 import matplotlib.pyplot as plt
 import cv2
@@ -11,6 +10,10 @@ import tkinter as tk
 from PIL import Image,ImageTk
 
 
+def test():
+    print("hello")
+
+test ()
 img = cv2.imread("449.png") #Lecture de l'image
 
 im = Image.open("449.png") #Ouverture de l'image
@@ -241,7 +244,7 @@ plt.title('Text')
 plt.show()'''
 
 
-
+print("Test")
 
 
                 
